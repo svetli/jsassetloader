@@ -9,6 +9,7 @@ Initialize path
 
 ```js
 AssetLoader.init('path/to/assets/');
+```
 
 Initialize group with autoload
 
@@ -18,6 +19,7 @@ var group = AssetLoader.addGroup('img1.jpg img2.jpg img3.jpg'.split(" "), {
 	onUpdate: assetLoadUpdate,
 	stripPath: true
 }, true);
+```
 
 Initialize group and load manual
 
@@ -29,3 +31,4 @@ var group = AssetLoader.addGroup('img1.jpg img2.jpg img3.jpg'.split(" "), {
 }, false);
 
 AssetLoader.loadGroup(group);
+```
